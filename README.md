@@ -16,8 +16,11 @@ I build software that is useful, inspectable, and a little unexpected.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Faisal01011-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/Faisal01011)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-faisal--fayaz-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/faisal-fayaz)
-[![Open Source](https://img.shields.io/badge/mode-open_source-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
+[![Portfolio](https://img.shields.io/badge/Portfolio-live-0d1117?style=flat-square&logo=vercel&logoColor=white)](https://faisal-fayaz-portfolio.vercel.app/)
+[![Open Source](https://img.shields.io/badge/upstream-7_merged_PRs-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
 [![Profile visits](https://komarev.com/ghpvc/?username=Faisal01011&label=Profile+visits&color=0d1117&style=flat-square)](https://github.com/Faisal01011)
+
+`16 public repos` · `5 live demos` · `7 merged upstream PRs` · `5 followers` · synced 2026-09-13
 
 </div>
 
@@ -50,8 +53,10 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
 
 | Repository | What I am exploring |
 | :--- | :--- |
+| **[llama-autotune](https://github.com/Faisal01011/llama-autotune)** | C++17 llama.cpp hardware auto-tuner with a live Dear ImGui dashboard for thread and batch tradeoffs. |
+| **[Codebase X-Ray](https://github.com/Faisal01011/codebase-xray)** | Interactive architecture maps: dependency graph, churn×complexity hotspots, blast radius, reading path. |
 | **[EcoMind](https://github.com/Faisal01011/ecomind)** | Voice capture, transcription, and semantic recall for private, searchable memories. |
-| **[Signal](https://github.com/Faisal01011/signal-speech-to-text)** | Self-hosted speech-to-text with Faster Whisper, timestamps, confidence, and persistent history. |
+| **[Signal](https://github.com/Faisal01011/signal-speech-to-text)** · **[live](https://signal-speech-to-text.vercel.app)** | Self-hosted speech-to-text with Faster Whisper, timestamps, confidence, and persistent history. |
 | **[Sky Duel](https://github.com/Faisal01011/sky-duel)** | Multiplayer aerial combat with a Vite/TypeScript client and a Colyseus server. |
 
 </details>
@@ -70,17 +75,29 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
       |               |         |               |         | WORLDS        |
       | AutoApply     |         | LeafScan      |         | IONSTORM      |
       | Repropack     |         | EcoMind       |         | Wild Roads    |
-      +---------------+         | Signal        |         | SysDesign Sim |
-                                +---------------+         +---------------+
+      | Codebase X-Ray|         | Signal        |         | SysDesign Sim |
+      +---------------+         | llama-autotune|         +---------------+
+                                +---------------+
 ```
 
 ## `open-source --upstream`
 
 Open source is where I learn fastest: read the real implementation, reproduce the edge case, write the test, and send the fix back upstream.
 
-- **[Soup #422](https://github.com/MakazhanAlpamys/Soup/pull/422)** — merged a ready-made Qwen3.5 4B continued-pretraining recipe, regression coverage, docs, and changelog updates.
-- **[Langfuse #16158](https://github.com/langfuse/langfuse/pull/16158)** — contributed a reasoning-output normalization fix with focused client regression coverage.
-- I aim to make my own public repositories easier to inspect and extend through clear READMEs, explicit limitations, tests, contribution notes, and practical issue reports.
+**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~6.2k★) — fine-tune LLMs from one YAML. Seven PRs merged:
+
+- **[#592](https://github.com/MakazhanAlpamys/Soup/pull/592)** merged 2026-09-12 — `fix(export)`: require explicit AWQ calibration data instead of silently downloading a 214k-row default set.
+- **[#588](https://github.com/MakazhanAlpamys/Soup/pull/588)** merged 2026-08-28 — `fix(train)`: make FSDP QLoRA dtype-compatible so 4-bit storage matches the compute dtype before wrapping.
+- **[#466](https://github.com/MakazhanAlpamys/Soup/pull/466)** merged 2026-08-22 — `feat(data)`: add Ollama and vLLM provider sampling to `soup data best-of-n`.
+- **[#437](https://github.com/MakazhanAlpamys/Soup/pull/437)** merged 2026-08-17 — `test(stream)`: pin the non-LoRA meta-guard scope so the adapter postcondition cannot silently widen.
+- **[#435](https://github.com/MakazhanAlpamys/Soup/pull/435)** merged 2026-08-17 — `fix(stream)`: verify adapter materialization across PEFT 0.18/0.19 instead of trusting a zero return count.
+- **[#432](https://github.com/MakazhanAlpamys/Soup/pull/432)** merged 2026-08-16 — `feat`: DeepSeek V4 Flash GRPO recipe, catalog guards, docs, changelog.
+- **[#422](https://github.com/MakazhanAlpamys/Soup/pull/422)** merged 2026-08-16 — `feat`: Qwen3.5 4B continued-pretraining recipe with regression coverage.
+
+**Other upstream**
+
+- **[supabase/evals #210](https://github.com/supabase/evals/pull/210)** — open. `fix(core)`: normalize Claude Code Agent tool output in the eval harness.
+- **[langfuse/langfuse #16158](https://github.com/langfuse/langfuse/pull/16158)** — submitted a reasoning-output normalization fix for empty completions (closed, not merged).
 
 ```diff
 + code should invite inspection
@@ -93,8 +110,8 @@ Open source is where I learn fastest: read the real implementation, reproduce th
 
 ```json
 {
-  "languages": ["Python", "TypeScript", "JavaScript", "SQL"],
-  "ai_ml": ["TensorFlow Lite", "Faster Whisper", "LLM evaluation", "RAG"],
+  "languages": ["Python", "TypeScript", "JavaScript", "C++", "SQL"],
+  "ai_ml": ["TensorFlow Lite", "Faster Whisper", "llama.cpp", "PEFT / QLoRA", "LLM evaluation"],
   "frontend": ["React", "React Native", "Three.js", "WebGPU"],
   "backend": ["FastAPI", "Node.js", "PostgreSQL", "Supabase"],
   "tooling": ["Git", "Docker", "GitHub Actions", "Vite"]
@@ -109,6 +126,7 @@ If you are building open developer tools, local-first AI, or something strange i
 > discuss an idea   : open an issue in the relevant repository
 > collaborate       : send a focused PR or proposal
 > say hello         : linkedin.com/in/faisal-fayaz
+> portfolio         : faisal-fayaz-portfolio.vercel.app
 
 status: building in public
 ```
