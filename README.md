@@ -94,11 +94,6 @@ Open source is where I learn fastest: read the real implementation, reproduce th
 - **[#432](https://github.com/MakazhanAlpamys/Soup/pull/432)** merged 2026-08-16 — `feat`: DeepSeek V4 Flash GRPO recipe, catalog guards, docs, changelog.
 - **[#422](https://github.com/MakazhanAlpamys/Soup/pull/422)** merged 2026-08-16 — `feat`: Qwen3.5 4B continued-pretraining recipe with regression coverage.
 
-**Other upstream**
-
-- **[supabase/evals #210](https://github.com/supabase/evals/pull/210)** — open. `fix(core)`: normalize Claude Code Agent tool output in the eval harness.
-- **[langfuse/langfuse #16158](https://github.com/langfuse/langfuse/pull/16158)** — submitted a reasoning-output normalization fix for empty completions (closed, not merged).
-
 ```diff
 + code should invite inspection
 + limitations belong in the README
