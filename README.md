@@ -20,7 +20,7 @@ I build software that is useful, inspectable, and a little unexpected.
 [![Open Source](https://img.shields.io/badge/upstream-7_merged_PRs-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
 [![Profile visits](https://komarev.com/ghpvc/?username=Faisal01011&label=Profile+visits&color=0d1117&style=flat-square)](https://github.com/Faisal01011)
 
-`16 public repos` · `5 live demos` · `7 merged upstream PRs` · `4 followers` · synced 2026-09-13
+`16 public repos` · `5 live demos` · `7 merged upstream PRs` · synced 2026-09-13
 
 </div>
 
