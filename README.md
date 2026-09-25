@@ -59,7 +59,6 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
 | **[Codebase X-Ray](https://github.com/Faisal-Fayaz/codebase-xray)** | Interactive architecture maps: dependency graph, churn×complexity hotspots, blast radius. |
 | **[EcoMind](https://github.com/Faisal-Fayaz/ecomind)** | Voice capture, transcription, and semantic recall for private, searchable memories. |
 | **[Signal](https://github.com/Faisal-Fayaz/signal-speech-to-text)** · **[live](https://signal-speech-to-text.vercel.app)** | Self-hosted speech-to-text with Faster Whisper, timestamps, and persistent history. |
-| **[Sky Duel](https://github.com/Faisal-Fayaz/sky-duel)** | Multiplayer aerial combat with a Vite/TypeScript client and a Colyseus server. |
 
 </details>
 
