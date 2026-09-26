@@ -11,7 +11,7 @@
 ```
 
 ### Faisal Fayaz
-
+https://pypi.org/user/Faisal-Fayaz/
 I build software that is useful, inspectable, and a little unexpected.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Faisal--Fayaz-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/Faisal-Fayaz)
@@ -26,7 +26,7 @@ I build software that is useful, inspectable, and a little unexpected.
 
 ```console
 faisal@github:~$ whoami
-AI/ML + full-stack builder based in India
+AI/ML + full-stack builder
 
 faisal@github:~$ cat interests.txt
 developer tooling  ·  local-first agents  ·  real-time systems
