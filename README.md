@@ -16,10 +16,10 @@ I build software that is useful, inspectable, and a little unexpected.
 [![GitHub](https://img.shields.io/badge/GitHub-Faisal--Fayaz-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/Faisal-Fayaz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-faisal--fayaz-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/faisal-fayaz)
 [![Portfolio](https://img.shields.io/badge/Portfolio-live-0d1117?style=flat-square&logo=vercel&logoColor=white)](https://faisal-fayaz-portfolio.vercel.app/)
-[![Open Source](https://img.shields.io/badge/upstream-7_merged_PRs-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
+[![Open Source](https://img.shields.io/badge/upstream-14_merged_PRs-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
 [![Profile visits](https://komarev.com/ghpvc/?username=Faisal-Fayaz&label=Profile+visits&color=0d1117&style=flat-square)](https://github.com/Faisal-Fayaz)
 
-`39 public repos` · `5 live demos` · `7 merged upstream PRs` · synced 2026-10-29
+`39 public repos` · `5 live demos` · `14 merged upstream PRs` · synced 2026-10-29
 
 </div>
 
@@ -90,15 +90,22 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
 
 Open source is where I learn fastest: read the real implementation, reproduce the edge case, write the test, and send the fix back upstream.
 
-**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~6.2k★) — fine-tune LLMs from one YAML. Seven PRs merged:
+**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~6.2k★) — fine-tune LLMs from one YAML. Fourteen PRs merged:
 
-- **[#592](https://github.com/MakazhanAlpamys/Soup/pull/592)** merged 2026-09-12 — `fix(export)`: require explicit AWQ calibration data instead of silently downloading a 214k-row default set.
-- **[#588](https://github.com/MakazhanAlpamys/Soup/pull/588)** merged 2026-08-28 — `fix(train)`: make FSDP QLoRA dtype-compatible so 4-bit storage matches the compute dtype before wrapping.
-- **[#466](https://github.com/MakazhanAlpamys/Soup/pull/466)** merged 2026-08-22 — `feat(data)`: add Ollama and vLLM provider sampling to `soup data best-of-n`.
-- **[#437](https://github.com/MakazhanAlpamys/Soup/pull/437)** merged 2026-08-17 — `test(stream)`: pin the non-LoRA meta-guard scope so the adapter postcondition cannot silently widen.
-- **[#435](https://github.com/MakazhanAlpamys/Soup/pull/435)** merged 2026-08-17 — `fix(stream)`: verify adapter materialization across PEFT 0.18/0.19 instead of trusting a zero return count.
-- **[#432](https://github.com/MakazhanAlpamys/Soup/pull/432)** merged 2026-08-16 — `feat`: DeepSeek V4 Flash GRPO recipe, catalog guards, docs, changelog.
-- **[#422](https://github.com/MakazhanAlpamys/Soup/pull/422)** merged 2026-08-16 — `feat`: Qwen3.5 4B continued-pretraining recipe with regression coverage.
+- **[#2188](https://github.com/MakazhanAlpamys/Soup/pull/2188)** merged 2026-10-28 — `test(fast-lora)`: rewrite the three #792 CUDA rows against the 2x float64 rule (Refs #792).
+- **[#2185](https://github.com/MakazhanAlpamys/Soup/pull/2185)** merged 2026-10-28 — `fix(eval)`: refuse an unparseable quant-check --tasks file with usage error 3.
+- **[#1770](https://github.com/MakazhanAlpamys/Soup/pull/1770)** merged 2026-10-18 — `feat(mcp)`: expose call_tool for callers that skip the MCP server (#1761).
+- **[#1756](https://github.com/MakazhanAlpamys/Soup/pull/1756)** merged 2026-10-19 — `fix(eval)`: do not credit a JSON number as a boolean in tool-call scoring (#1755).
+- **[#1728](https://github.com/MakazhanAlpamys/Soup/pull/1728)** merged 2026-10-09 — `perf(quest)`: reuse the held base identity on a v1 resume (#1199).
+- **[#1716](https://github.com/MakazhanAlpamys/Soup/pull/1716)** merged 2026-10-08 — `fix(config)`: refuse use_liger / use_flash_attn under stream_layers (#1692).
+- **[#1307](https://github.com/MakazhanAlpamys/Soup/pull/1307)** merged 2026-10-07 — `fix(ui)`: open and print a login URL that carries the auth token (#1194).
+- **[#592](https://github.com/MakazhanAlpamys/Soup/pull/592)** merged 2026-09-12 — `fix(export)`: require explicit AWQ calibration data.
+- **[#588](https://github.com/MakazhanAlpamys/Soup/pull/588)** merged 2026-08-28 — `fix(train)`: make FSDP QLoRA dtype-compatible.
+- **[#466](https://github.com/MakazhanAlpamys/Soup/pull/466)** merged 2026-08-22 — `feat(data)`: add provider sampling to best-of-n.
+- **[#437](https://github.com/MakazhanAlpamys/Soup/pull/437)** merged 2026-08-17 — `test(stream)`: pin non-LoRA meta guard scope.
+- **[#435](https://github.com/MakazhanAlpamys/Soup/pull/435)** merged 2026-08-17 — `fix(stream)`: verify adapter materialization.
+- **[#432](https://github.com/MakazhanAlpamys/Soup/pull/432)** merged 2026-08-16 — `feat`: add DeepSeek V4 Flash GRPO recipe.
+- **[#422](https://github.com/MakazhanAlpamys/Soup/pull/422)** merged 2026-08-16 — `feat`: add Qwen3.5 4B pretrain recipe.
 
 ```diff
 + code should invite inspection
