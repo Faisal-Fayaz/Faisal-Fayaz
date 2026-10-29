@@ -39,7 +39,7 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
 
 | Repository | Signal |
 | :--- | :--- |
-| **[Sidekick](https://github.com/Faisal-Fayaz/sidekick)** | Local-first terminal companion — chat, voice, and 17 tools on your hardware. Published as `sidekick-agent` (`sk`). `Python` `Textual` `Ollama` |
+| **[Sidekick](https://github.com/Faisal-Fayaz/sidekick)** · **[live](https://sidekick-drab-gamma.vercel.app)** | Local-first terminal companion — chat, voice, and 17 tools on your hardware. Published as `sidekick-agent` (`sk`). `Python` `Textual` `Ollama` |
 | **[Physics Lab](https://github.com/Faisal-Fayaz/physics-lab)** | C++ / SFML teaching lab: 17 scenes, 24 lessons, quiz, live instruments that measure F=ma. `C++` `SFML` |
 | **[AutoApply](https://github.com/Faisal-Fayaz/autoapply)** | Semantic job-form autofill across major ATS platforms, with confidence scoring and local-first profiles. `Python` `FastAPI` `Chrome MV3` |
 | **[Repropack](https://github.com/Faisal-Fayaz/repropack-cli)** | Wrap a failing command and turn it into a redacted, review-ready reproduction report—locally. `TypeScript` `CLI` `Node.js` |
@@ -54,6 +54,11 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
 
 | Repository | What I am exploring |
 | :--- | :--- |
+| **[toolwall](https://github.com/Faisal-Fayaz/toolwall)** | Policy firewall for AI agent tool calls: argument-level gating, replayable policy, and credential brokering for MCP servers and agent hooks. `TypeScript` `npm` |
+| **[sh-agent](https://github.com/Faisal-Fayaz/sh-agent)** + **[sh-app](https://github.com/Faisal-Fayaz/sh-app)** | Gesture-friendly terminal agent that gives a phone a real shell on your machine over Tailscale. `Python` `Expo` |
+| **[thockboard](https://github.com/Faisal-Fayaz/thockboard)** | Mechanical keyboard sounds for any keyboard, system-wide. `Rust` |
+| **[genesis](https://github.com/Faisal-Fayaz/genesis)** | Deterministic procedural wallpapers, live and still. Every image is a git-able JSON recipe. `Python` |
+| **[sky-duel](https://github.com/Faisal-Fayaz/sky-duel)** | Multiplayer aerial combat game with Vite/TypeScript client and Colyseus server. `TypeScript` |
 | **[llama-autotune](https://github.com/Faisal-Fayaz/llama-autotune)** | C++17 llama.cpp hardware auto-tuner with a live Dear ImGui dashboard. |
 | **[Codebase X-Ray](https://github.com/Faisal-Fayaz/codebase-xray)** | Interactive architecture maps: dependency graph, churn×complexity hotspots, blast radius. |
 | **[EcoMind](https://github.com/Faisal-Fayaz/ecomind)** | Voice capture, transcription, and semantic recall for private, searchable memories. |
@@ -76,7 +81,8 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
       | Sidekick      |         | LeafScan      |         | IONSTORM      |
       | AutoApply     |         | EcoMind       |         | Wild Roads    |
       | Repropack     |         | Signal        |         | SysDesign Sim |
-      | Codebase X-Ray|         | llama-autotune|         | Physics Lab   |
+      | toolwall      |         | llama-autotune|         | Physics Lab   |
+      | sh-agent      |         |               |         | sky-duel      |
       +---------------+         +---------------+         +---------------+
 ```
 
@@ -105,12 +111,12 @@ Open source is where I learn fastest: read the real implementation, reproduce th
 
 ```json
 {
-  "languages": ["Python", "TypeScript", "JavaScript", "C++", "SQL"],
+  "languages": ["Python", "TypeScript", "JavaScript", "C++", "Rust", "SQL"],
   "ai_ml": ["TensorFlow Lite", "Faster Whisper", "llama.cpp", "Ollama", "PEFT / QLoRA", "LLM evaluation"],
-  "frontend": ["React", "React Native", "Three.js", "WebGPU", "Textual"],
+  "frontend": ["React", "React Native", "Expo", "Three.js", "WebGPU", "Textual"],
   "backend": ["FastAPI", "Node.js", "PostgreSQL", "Supabase"],
-  "systems": ["SFML", "MCP"],
-  "tooling": ["Git", "Docker", "GitHub Actions", "Vite"]
+  "systems": ["SFML", "MCP", "Tailscale"],
+  "tooling": ["Git", "Docker", "GitHub Actions", "Vite", "npm"]
 }
 ```
 
