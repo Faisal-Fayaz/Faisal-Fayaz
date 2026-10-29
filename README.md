@@ -92,7 +92,7 @@ Open source is where I learn fastest: read the real implementation, reproduce th
 
 **16 merged PRs** across external repositories.
 
-**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~6.2k★) — fine-tune LLMs from one YAML. Fourteen PRs:
+**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~9.8k★) — fine-tune LLMs from one YAML. Fourteen PRs:
 
 - **[#2188](https://github.com/MakazhanAlpamys/Soup/pull/2188)** merged 2026-10-28 — `test(fast-lora)`: rewrite the three #792 CUDA rows against the 2x float64 rule (Refs #792).
 - **[#2185](https://github.com/MakazhanAlpamys/Soup/pull/2185)** merged 2026-10-28 — `fix(eval)`: refuse an unparseable quant-check --tasks file with usage error 3.
