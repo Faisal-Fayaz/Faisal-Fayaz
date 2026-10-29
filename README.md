@@ -16,10 +16,10 @@ I build software that is useful, inspectable, and a little unexpected.
 [![GitHub](https://img.shields.io/badge/GitHub-Faisal--Fayaz-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/Faisal-Fayaz)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-faisal--fayaz-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/faisal-fayaz)
 [![Portfolio](https://img.shields.io/badge/Portfolio-live-0d1117?style=flat-square&logo=vercel&logoColor=white)](https://faisal-fayaz-portfolio.vercel.app/)
-[![Open Source](https://img.shields.io/badge/upstream-14_merged_PRs-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
+[![Open Source](https://img.shields.io/badge/upstream-16_merged_PRs-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=3fb950)](#open-source--upstream)
 [![Profile visits](https://komarev.com/ghpvc/?username=Faisal-Fayaz&label=Profile+visits&color=0d1117&style=flat-square)](https://github.com/Faisal-Fayaz)
 
-`39 public repos` · `5 live demos` · `14 merged upstream PRs` · synced 2026-10-29
+`39 public repos` · `5 live demos` · `16 merged upstream PRs` · synced 2026-10-29
 
 </div>
 
@@ -90,7 +90,9 @@ faisal@github:~$ echo $BUILD_PHILOSOPHY
 
 Open source is where I learn fastest: read the real implementation, reproduce the edge case, write the test, and send the fix back upstream.
 
-**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~6.2k★) — fine-tune LLMs from one YAML. Fourteen PRs merged:
+**16 merged PRs** across external repositories.
+
+**Soup** ([MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) · ~6.2k★) — fine-tune LLMs from one YAML. Fourteen PRs:
 
 - **[#2188](https://github.com/MakazhanAlpamys/Soup/pull/2188)** merged 2026-10-28 — `test(fast-lora)`: rewrite the three #792 CUDA rows against the 2x float64 rule (Refs #792).
 - **[#2185](https://github.com/MakazhanAlpamys/Soup/pull/2185)** merged 2026-10-28 — `fix(eval)`: refuse an unparseable quant-check --tasks file with usage error 3.
@@ -106,6 +108,11 @@ Open source is where I learn fastest: read the real implementation, reproduce th
 - **[#435](https://github.com/MakazhanAlpamys/Soup/pull/435)** merged 2026-08-17 — `fix(stream)`: verify adapter materialization.
 - **[#432](https://github.com/MakazhanAlpamys/Soup/pull/432)** merged 2026-08-16 — `feat`: add DeepSeek V4 Flash GRPO recipe.
 - **[#422](https://github.com/MakazhanAlpamys/Soup/pull/422)** merged 2026-08-16 — `feat`: add Qwen3.5 4B pretrain recipe.
+
+**Other upstream**
+
+- **[Tencent/BrowserSkill #487](https://github.com/Tencent/BrowserSkill/pull/487)** merged 2026-10-27 — Name recurring failure modes for agents (issue #465).
+- **[archestra-ai/OpenAPPA #571](https://github.com/archestra-ai/OpenAPPA/pull/571)** merged 2026-10-05 — `ci`: run battery readiness checks and fix stale docs.
 
 ```diff
 + code should invite inspection
